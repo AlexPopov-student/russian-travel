@@ -1,0 +1,23 @@
+.cover__text_title{
+    margin: 0;
+    width: 560px;
+    height: 152px;
+    font-family: 'Inter Black', Arial, Helvetica, sans-serif ;
+    font-size: 72px;
+    line-height: 106%;
+    text-align: center;
+    z-index: 2;
+    margin-bottom: 32px;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+ @media screen and (max-width: 767px) {
+    .cover__text_title{
+        width: 288px;
+        height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 18px;
+    }
+ }

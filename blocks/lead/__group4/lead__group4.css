@@ -1,0 +1,36 @@
+.lead__group4{
+    position: absolute;
+    width: 937.09px;
+    height: 262.99px;
+    left: 23.27px;
+    top: 90.21px;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+@media screen and (max-width: 1279px) {
+    .lead__group4 {
+        width: 883.76px;
+        height: 248.02px;
+        left: 21.95px;
+        top: 85.07px;
+    }
+ }
+ 
+ @media screen and (max-width: 1023px) {
+    .lead__group4 {
+        width: 731.38px;
+        height: 205.26px;
+        left: 18.16px;
+        top: 70.41px;
+    }
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .lead__group4 {
+        width: 304.74px;
+        height: 85.53px;
+        left: 7.57px;
+        top: 29.34px;
+    }
+ }

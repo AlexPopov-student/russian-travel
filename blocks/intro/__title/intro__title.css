@@ -1,0 +1,22 @@
+.intro__title{
+    font-family: 'Inter Black', Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 40px;
+    width: 690px;
+    height: 58px;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 107%;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+ @media screen and (max-width: 767px) {
+    .intro__title {
+        margin-bottom: 40px;
+        width: 288px;
+        height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+ }

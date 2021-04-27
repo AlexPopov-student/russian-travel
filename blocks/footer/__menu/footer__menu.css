@@ -1,0 +1,15 @@
+.footer__menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Адаптация под уменьшенные размеры*/
+ 
+ @media screen and (max-width: 767px) {
+    .footer__menu{
+        margin: 0;
+        flex-direction: column;
+    }
+ }

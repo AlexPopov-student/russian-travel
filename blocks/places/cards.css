@@ -1,0 +1,35 @@
+.cards{
+    margin: 0 auto;
+    width: 984px;
+    height: 3392px;
+    margin-bottom: 92px;
+    color: white;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+@media screen and (max-width: 1279px) {
+    .cards{
+        width: 928px;
+        height: 3392px;
+        margin-bottom: 30px;
+    }
+ }
+ 
+ @media screen and (max-width: 1023px) {
+    .cards{
+        margin: 0;
+        width: 720px;
+        height: fit-content; 
+        margin-bottom: 90px;
+    }
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .cards{
+        width: 320px;
+        height: fit-content;
+        margin-left: 0px;
+        margin-bottom: 66px;
+    }
+ }

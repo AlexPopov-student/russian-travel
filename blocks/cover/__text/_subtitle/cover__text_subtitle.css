@@ -1,0 +1,22 @@
+.cover__text_subtitle{
+    margin: 0;
+    width: 360px;
+    height: 66px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+@media screen and (max-width: 767px) {
+    .cover__text_subtitle{
+        width: 288px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+ }

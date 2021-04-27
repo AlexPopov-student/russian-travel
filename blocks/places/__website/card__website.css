@@ -1,0 +1,25 @@
+.card__website{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 456px;
+    height: min-content;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+@media screen and (max-width: 1023px) {
+    .card__website{
+        width: 352px;
+    }
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .card__website{
+        padding-left: 16px;
+        width: 288px;
+        box-sizing: border-box;
+    }
+ }

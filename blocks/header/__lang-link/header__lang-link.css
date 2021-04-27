@@ -1,0 +1,23 @@
+.header__lang-link{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    padding-right: 18px;
+    list-style-type: none;
+}
+
+.header__lang-link:last-of-type{
+    text-decoration: none;
+    padding-right: 0;
+    border: 1px solid black;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+@media screen and (max-width: 767px) {
+    .header__lang-link{
+       font-size: 18px;
+       line-height: 20px;
+    }
+ }

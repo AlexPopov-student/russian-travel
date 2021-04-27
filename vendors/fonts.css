@@ -1,0 +1,31 @@
+/*Права на используемые шрифты семейства Inter Designed by Rasmus Andersson принадлежат Google, взяты с ресурса https://fonts.google.com/specimen/Inter?query=Inter#standard-styles и использованы в настоящей Практической работе согласно задания*/
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-Regular.ttf) format('truetype');
+    src: url(./fonts/Inter-Regular.woff2) format('woff2');
+    src: url(./fonts/Inter-Regular.woff) format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(./fonts/Inter-Bold.ttf) format('truetype');
+    src: url(./fonts/Inter-Bold.woff2) format('woff2');
+    src: url(./fonts/Inter-Bold.woff) format('woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Black';
+    src: url(./fonts/Inter-Black.ttf) format('truetype');
+    src: url(./fonts/Inter-Black.woff2) format('woff2');
+    src: url(./fonts/Inter-Black.woff) format('woff');
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}

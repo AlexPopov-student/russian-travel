@@ -1,0 +1,19 @@
+.intro__text{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    width: 690px;
+    height: 208px;
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 33px;
+    font-weight: normal;
+}
+
+/* Адаптация под уменьшенные размеры*/
+
+@media screen and (max-width: 767px) {
+    .intro__text {
+        width: 288px;
+        height: 520px;
+        margin-bottom: 34px;
+    }
+ }

@@ -1,0 +1,35 @@
+.photo{
+    margin: 0;
+    margin-left: 48px;
+    padding: 0;
+    width: 1184px;
+    height: 671px;
+    margin-bottom: 92px;
+}
+
+/* Адаптация под уменьшенные размеры*/
+ 
+@media screen and (max-width: 1279px) {
+    .photo {
+        width: 928px;
+        height: 942px;
+    }
+ }
+
+@media screen and (max-width: 1023px) {
+    .photo {
+        width: 720px;
+        height: 1664px;
+        margin-bottom: 88px;
+        margin-left: 24px;
+    }
+ }
+ 
+@media screen and (max-width: 767px) {
+    .photo {
+        width: 288px;
+        height: 2724px;
+        margin-bottom: 64px;
+        margin-left: 16px;
+    }
+ }
