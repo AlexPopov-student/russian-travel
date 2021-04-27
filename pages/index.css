@@ -15,12 +15,11 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/intro/__list/_figures/intro__list_figures.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/photo.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/places/cards.css);
+@import url(../blocks/places/card.css);
 @import url(../blocks/places/__container/card__container.css);
 @import url(../blocks/places/__title/card__title.css);
 @import url(../blocks/places/__website/card__website.css);
