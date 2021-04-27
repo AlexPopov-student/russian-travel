@@ -34,7 +34,7 @@
         width: 928px;
         height: -webkit-min-content;
         height: -moz-min-content;
-        height: fit-content;
+        height: min-content;
         -webkit-column-gap: 32px;
            -moz-column-gap: 32px;
                 column-gap: 32px;
@@ -75,7 +75,7 @@
         grid-template-rows: min-content;
         height: -webkit-fit-content;
         height: -moz-fit-content;
-        height: fit-content;
+        height: min-content;
         margin: 0 auto;
         margin-bottom: 50px;
         -webkit-column-gap: 0;

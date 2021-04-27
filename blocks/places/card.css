@@ -9,27 +9,27 @@
 /* Адаптация под уменьшенные размеры*/
 
 @media screen and (max-width: 1279px) {
-    .cards{
+    .card{
         width: 928px;
-        height: 3392px;
-        margin-bottom: 30px;
+        height: min-content;
+        margin-bottom: 12px;
     }
  }
  
  @media screen and (max-width: 1023px) {
-    .cards{
+    .card{
         margin: 0;
         width: 720px;
-        height: fit-content;
-        margin-bottom: 90px;
+        height: min-content;
+        margin-bottom: 18px;
     }
  }
  
  @media screen and (max-width: 767px) {
-    .cards{
+    .card{
         width: 320px;
-        height: fit-content;
+        height: min-content;
         margin-left: 0px;
-        margin-bottom: 66px;
+        margin-bottom: 16px;
     }
  }

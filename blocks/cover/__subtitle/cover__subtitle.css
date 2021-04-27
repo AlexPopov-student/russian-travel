@@ -1,0 +1,31 @@
+.cover__subtitle{
+    margin: 0 auto;
+    width: 360px;
+    height: 66px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    transform: translate(0, -471px);
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__subtitle{
+        transform: translate(0, -425px);
+    }
+ }
+ 
+ @media screen and (max-width: 1023px) {
+    .cover__subtitle{
+        transform: translate(0, -327px);
+    }
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .cover__subtitle{
+        font-size: 14px;
+        width: 288px;
+        height: 48px;
+        transform: translate(0, -161px);
+    }
+ }

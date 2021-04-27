@@ -1,0 +1,33 @@
+.cover__title{
+    margin: 0 auto;
+    width: 560px;
+    height: 152px;
+    font-family: 'Inter Black', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    line-height: 106%;
+    text-align: center;
+    z-index: 2;
+    transform: translate(0, -495px);
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__title{
+        transform: translate(0, -445px);
+    }
+ }
+ 
+ @media screen and (max-width: 1023px) {
+    .cover__title{
+        transform: translate(0, -365px);
+    }
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .cover__title{
+        font-size: 32px;
+        width: 248px;
+        height: 70px;
+        transform: translate(0, -167px);
+        
+    }
+ }
