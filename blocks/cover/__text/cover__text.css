@@ -46,8 +46,7 @@
  
  @media screen and (max-width: 767px) {
     .cover__text{
-        background-size: cover;
-        margin: 16px;  
+        margin: 16px;
         padding: 0;
         width: 280px;
         height: 134px;
