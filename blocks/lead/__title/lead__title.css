@@ -3,7 +3,6 @@
     margin: 0 auto;
     margin-bottom: 32px;
     width: 720px;
-    height: 200px;
     font-weight: 900;
     font-size: 96px;
     line-height: 1.04;
@@ -16,7 +15,6 @@
 @media screen and (max-width: 767px) {
     .lead__title {
         width: 288px;
-        height: 88px;
         margin: 0 auto;
         margin-bottom: 16px;
         font-size: 40px;

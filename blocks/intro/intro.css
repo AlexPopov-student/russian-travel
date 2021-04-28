@@ -1,25 +1,18 @@
 .intro{
     margin: 0;
+    padding: 0;
     width: 690px;
-    height: 429px;
-    margin-left: 148px;
     margin-top: 114px;
+    margin-left: calc((100vw - 984px)/2);
     margin-bottom: 92px;
     color: white;
 }
 
 /* Адаптация под уменьшенные размеры*/
 
-@media screen and (max-width: 1279px) {
-    .intro{
-        margin-left: 48px;
-        margin-top: 114px;
-    }
- }
- 
  @media screen and (max-width: 1023px) {
     .intro{
-        margin-left: 24px;
+        margin-left: calc((100vw - 720px)/2);
         margin-top: 110px;
         margin-bottom: 88px;
     }
@@ -28,8 +21,7 @@
  @media screen and (max-width: 767px) {
     .intro{
         width: 288px;
-        height: 754px;
-        margin-left: 16px;
+        margin-left: calc((100vw - 288px)/2);
         margin-top: 64px;
         margin-bottom: 64px;
     }

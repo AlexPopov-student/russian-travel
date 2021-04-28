@@ -1,5 +1,5 @@
 .card__website{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,6 @@
  
  @media screen and (max-width: 767px) {
     .card__website{
-        padding-left: 16px;
         width: 288px;
         box-sizing: border-box;
     }

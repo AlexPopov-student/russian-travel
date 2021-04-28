@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     width: 1184px;
-    height: 18px;
     color: white;
     margin-bottom: 18px;
     display: -webkit-box;
@@ -37,8 +36,8 @@
  @media screen and (max-width: 767px) {
     .footer{
         width: 186px;
-        height: 310px;
         margin: 0;
+        margin-left: 16px;
         margin-bottom: 24px;
         display: -webkit-box;
         display: -ms-flexbox;

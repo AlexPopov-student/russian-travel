@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     width: 186px;
-    height: 16px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 114%;
-    text-align: right;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
-    .footer_copyright{
-        margin-left: 16px;
+    .footer__copyright{
+        margin-top: 48px;
         text-align: left;
     }
  }

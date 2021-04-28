@@ -19,6 +19,8 @@
 Стили: css 3.0
 Внешние vendors: стандартный normalize 
 
+Проект опубликован на GitHub за адресом https://alexpopov-student.github.io/russian-travel/index.html
+
 Первая версия:
 
 27 апреля 2021 года

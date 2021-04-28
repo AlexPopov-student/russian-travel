@@ -2,7 +2,6 @@
     margin: 0 auto;
     margin-top: 56px;
     width: 984px;
-    height: 1005px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -31,7 +30,6 @@
         width: 768px;
         height: 862px;
         margin: 0 auto;
-        margin-top: 48px;
     }
  }
  
