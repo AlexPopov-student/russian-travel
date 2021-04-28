@@ -27,7 +27,7 @@
     .cover{
         width: 100%;
         height: calc(0.625*100vw);
-        margin: 0 auto; 
+        margin: 0 auto;
         margin-bottom: 64px;
     }
  }
