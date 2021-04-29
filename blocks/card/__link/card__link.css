@@ -2,7 +2,6 @@
     margin: 0 auto;
     padding: 0;
     width: 456px;
-    height: 22px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 122%;
@@ -10,3 +9,19 @@
     text-decoration-line: underline;
     color: white;
 }
+
+.card__link:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+    .card__link{
+        width: 352px;
+    }
+ }
+ 
+@media screen and (max-width: 767px) {
+    .card__link{
+        width: 100%;
+    }
+ }

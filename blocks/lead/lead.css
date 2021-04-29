@@ -1,6 +1,5 @@
 .lead{
     margin: 0 auto;
-    margin-top: 56px;
     width: 984px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -19,16 +18,13 @@
 @media screen and (max-width: 1279px) {
     .lead {
         width: 928px;
-        height: 962px;
         margin: 0 auto;
-        margin-top: 48px;
     }
  }
  
  @media screen and (max-width: 1023px) {
     .lead {
         width: 768px;
-        height: 862px;
         margin: 0 auto;
     }
  }
@@ -36,8 +32,6 @@
  @media screen and (max-width: 767px) {
     .lead {
         width: 320px;
-        height: 406px;
         margin: 0 auto;
-        margin-top: 16px;
     }
  }

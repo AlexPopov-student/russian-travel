@@ -1,11 +1,12 @@
 .card__title{
     margin: 0;
     padding: 0;
-    font-family: 'Inter Black', Arial, Helvetica, sans-serif;
+    font-family: 'Inter Black', Arial, sans-serif;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-}
+    vertical-align: text-bottom;
+        }
 
 /* Адаптация под уменьшенные размеры*/
 

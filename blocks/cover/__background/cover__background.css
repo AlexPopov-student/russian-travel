@@ -7,9 +7,9 @@
     width: 100%;
     height: 100%;
     background-color: #2A2C2F;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .cover__background:hover{
-    opacity: 0.8;
+    opacity: 0.3;
 }

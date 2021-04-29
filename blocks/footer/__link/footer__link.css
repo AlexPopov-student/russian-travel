@@ -9,6 +9,10 @@
     color: white;
 }
 
+.footer__link:hover{
+    text-decoration: underline;
+}
+
 /* Адаптация под уменьшенные размеры*/
  
 @media screen and (max-width: 767px) {

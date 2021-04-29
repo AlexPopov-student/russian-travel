@@ -10,22 +10,19 @@
 @media screen and (max-width: 1279px) {
     .photo {
         width: 928px;
-        height: 942px;
     }
  }
 
 @media screen and (max-width: 1023px) {
     .photo {
         width: 720px;
-        height: 1664px;
         margin-bottom: 88px;
     }
  }
  
 @media screen and (max-width: 767px) {
     .photo {
-            width: 288px;
-        height: 2724px;
+        width: 288px;
         margin-bottom: 64px;
     }
  }

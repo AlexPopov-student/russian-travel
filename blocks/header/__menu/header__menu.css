@@ -5,3 +5,7 @@
     display: -ms-flexbox;
     display: flex;
 }
+
+.header__menu:last-of-type{
+    margin: 0;
+}

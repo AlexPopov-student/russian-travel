@@ -1,6 +1,5 @@
 .card__url-heading{
     width: 456px;
-    height: 12px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -9,4 +8,17 @@
     color: #AAAAAA;
     margin-bottom: 12px;
     box-sizing: border-box;
+    letter-spacing: 0.2em;
 }
+
+@media screen and (max-width: 1023px) {
+    .card__url-heading{
+        width: 352px;
+    }
+ }
+ 
+@media screen and (max-width: 767px) {
+    .card__url-heading{
+        width: 288px;
+    }
+ }
