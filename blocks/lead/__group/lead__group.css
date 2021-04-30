@@ -20,7 +20,7 @@
  @media screen and (max-width: 1023px){
     .lead__group{
         width: 95.75%;
-        height: calc(0.2831*100vw); 
+        height: calc(0.2831*100vw);
         left: 18.16px;
         top: 70.41px;
     }
