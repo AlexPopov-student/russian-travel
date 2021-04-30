@@ -8,6 +8,10 @@
     margin-left: 18px;
 }
 
+.header__lang-link:hover{
+    opacity: 0.8;
+}
+
 /* Адаптация под уменьшенные размеры*/
 
 @media screen and (max-width: 767px) {

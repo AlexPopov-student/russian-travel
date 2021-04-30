@@ -8,7 +8,7 @@
 
 /* Адаптация под уменьшенные размеры*/
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px){
     .lead__group{
         width: 883.76px;
         height: 248.02px;
@@ -17,20 +17,21 @@
     }
  }
  
- @media screen and (max-width: 1023px) {
+ @media screen and (max-width: 1023px){
     .lead__group{
-        width: 731.38px;
-        height: 205.26px;
+        width: 95.75%;
+        height: calc(0.2831*100vw); 
         left: 18.16px;
         top: 70.41px;
     }
  }
  
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 767px){
     .lead__group{
-        width: 304.74px;
-        height: 85.53px;
+        width: 95.75%;
+        height: calc(0.2831*100vw);
         left: 7.57px;
         top: 29.34px;
+        z-index: 3;
     }
  }

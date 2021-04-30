@@ -1,7 +1,6 @@
 .card{
     margin: 0 auto;
     width: 984px;
-    height: 3392px;
     margin-bottom: 92px;
     color: white;
 }
@@ -12,7 +11,6 @@
     .card{
         width: 928px;
         height: min-content;
-        margin-bottom: 12px;
     }
  }
  
@@ -21,7 +19,7 @@
         margin: 0;
         width: 720px;
         height: min-content;
-        margin-bottom: 18px;
+        margin-bottom: 90px;
     }
  }
  
@@ -30,6 +28,6 @@
         width: 320px;
         height: min-content;
         margin-left: 0px;
-        margin-bottom: 16px;
+        margin-bottom: 66px;
     }
  }

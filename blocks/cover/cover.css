@@ -3,37 +3,7 @@
     height: 740px;
     margin: 0 auto;
     padding: 0;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 46px;
-    background-size: cover;
-    object-fit:scale-down;
-    position: relative;
-    z-index: 0;
-    text-decoration: none;
-}
-
-.cover::before  {
-    display: block;
-    position: absolute;
-    top:0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2A2C2F;
-    z-index: 1;
-    opacity: 0.3;
+    margin-bottom: 92px;
 }
 
 /* Адаптация под уменьшенные размеры*/
@@ -43,6 +13,7 @@
         width: 100%;
         height: calc(0.625*100vw);
         margin: 0 auto;
+        margin-bottom: 92px;
     }
  }
  
